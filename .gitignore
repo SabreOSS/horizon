@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environments (anchored to repo root to avoid matching e.g. configuration/**/env/)
+/.venv
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+lib/
+var/
+
+# Testing
+.coverage
+.coverage.*
+.cache
+coverage.xml
+.terraform
+
+# Devenv
+.env
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+# devenv-managed pre-commit hook config symlinks (regenerated per machine)
+/.gitlint
+/.yamllint.yaml
+web/tests/reports/vitest-results.xml
+
+# Performance test outputs
+perf/results/
+/web/node_cache
+/graphify-out
+/.local-runtime
+web/tests/reports/vitest-results.xml
+.DS_Store
+wflow.json
