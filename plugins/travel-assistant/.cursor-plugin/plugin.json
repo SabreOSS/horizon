@@ -1,0 +1,46 @@
+{
+  "name": "travel-assistant",
+  "displayName": "Travel Assistant",
+  "version": "1.0.0",
+  "description": "Search hotels and flights, compare rates and fare terms, build trip plans and check out through the Sabre Travel Assistant MCP server.",
+  "author": {
+    "name": "Sabre"
+  },
+  "logo": "assets/logo.png",
+  "keywords": [
+    "travel",
+    "sabre",
+    "mcp",
+    "hotels",
+    "flights",
+    "booking",
+    "trip planning"
+  ],
+  "category": "integrations",
+  "tags": [
+    "mcp",
+    "travel",
+    "hotels",
+    "flights"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "CLIENT_ID": {
+        "type": "string",
+        "title": "Travel Assistant Client ID",
+        "description": "Client ID of the OAuth (Okta) application registered for the Sabre Travel Assistant MCP server."
+      },
+      "CLIENT_SECRET": {
+        "type": "string",
+        "title": "Travel Assistant Client Secret",
+        "description": "Client Secret of the same OAuth (Okta) application."
+      }
+    },
+    "required": [
+      "CLIENT_ID",
+      "CLIENT_SECRET"
+    ]
+  },
+  "mcpServers": "./mcp.json"
+}

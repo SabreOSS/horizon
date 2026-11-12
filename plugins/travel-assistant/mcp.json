@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "travel-assistant": {
+      "type": "http",
+      "url": "https://mcp.partners.sabre.com/mcp",
+      "auth": {
+        "CLIENT_ID": "${CLIENT_ID}",
+        "CLIENT_SECRET": "${CLIENT_SECRET}",
+        "scopes": ["openid", "email", "profile", "offline_access"]
+      }
+    }
+  }
+}

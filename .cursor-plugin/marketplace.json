@@ -1,0 +1,17 @@
+{
+  "name": "sabre-travel-plugins",
+  "owner": {
+    "name": "Sabre"
+  },
+  "metadata": {
+    "description": "Sabre travel plugins for Cursor",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "travel-assistant",
+      "source": "./plugins/travel-assistant",
+      "description": "Search and plan hotels and flights, build trip plans and check out through the Sabre Travel Assistant MCP server."
+    }
+  ]
+}
