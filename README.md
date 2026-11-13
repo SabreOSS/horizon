@@ -1,1 +1,1 @@
-# Sabre travel plugins for Cursor
+# Sabre marketplace for Agent Plugins
