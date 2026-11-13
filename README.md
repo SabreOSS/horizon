@@ -1,1 +1,1 @@
-# Sabre marketplace for Agent Plugins
+# Sabre Marketplace for Agent Plugins
