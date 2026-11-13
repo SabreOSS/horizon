@@ -9,9 +9,9 @@
   },
   "plugins": [
     {
-      "name": "travel-assistant",
-      "source": "./plugins/travel-assistant",
-      "description": "Search and plan hotels and flights, build trip plans and check out through the Sabre Travel Assistant MCP server."
+      "name": "Sabre Travel Connector",
+      "source": "./plugins/sabre-travel-connector",
+      "description": "The Sabre Travel Connector lets you shop flights and hotels side by side, see what’s included and restricted, then book and manage the full trip in one place."
     }
   ]
 }

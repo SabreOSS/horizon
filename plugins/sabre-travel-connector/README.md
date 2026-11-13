@@ -1,6 +1,6 @@
-# Travel Assistant
+# Sabre Travel Connector
 
-Cursor plugin that connects agents to the Sabre Travel Assistant through its remote [Model Context Protocol](https://modelcontextprotocol.io/) server.
+Cursor plugin that connects agents to the Sabre Travel Connector through its remote [Model Context Protocol](https://modelcontextprotocol.io/) server.
 
 Search hotels and flights, compare room rates and fare terms, build a trip plan and check it out, all as the signed-in traveler.
 
@@ -13,8 +13,8 @@ Keep the Client Secret private: do not share it or commit it to a repository.
 ## Install
 
 1. Complete onboarding and have your Client ID and Client Secret at hand.
-2. Install **Travel Assistant** from the Cursor Plugins settings (or run `/add-plugin travel-assistant`) once the plugin is available in your marketplace.
-3. Set **Travel Assistant Client ID** and **Travel Assistant Client Secret** when prompted, then complete the Sabre sign-in prompt.
+2. Install **Sabre Travel Assistant** from the Cursor Plugins settings (or run `/add-plugin travel-assistant`) once the plugin is available in your marketplace.
+3. Set **Sabre Travel Connector Client ID** and **Sabre Travel Connector Client Secret** when prompted, then complete the Sabre sign-in prompt.
 
 On a team marketplace, a Cursor admin can set the credentials once for everyone in **Dashboard → Plugins → Configure**; each member still completes their own sign-in.
 
@@ -23,7 +23,7 @@ On a team marketplace, a Cursor admin can set the credentials once for everyone 
 ```json
 {
   "mcpServers": {
-    "travel-assistant": {
+    "sabre-travel-connector": {
       "type": "http",
       "url": "https://mcp.partners.sabre.com/mcp",
       "auth": {

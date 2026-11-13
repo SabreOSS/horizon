@@ -1,8 +1,8 @@
 {
-  "name": "travel-assistant",
-  "displayName": "Travel Assistant",
+  "name": "sabre-travel-connector",
+  "displayName": "Sabre Travel Connector",
   "version": "1.0.0",
-  "description": "Search hotels and flights, compare rates and fare terms, build trip plans and check out through the Sabre Travel Assistant MCP server.",
+  "description": "The Sabre Travel Connector lets you shop flights and hotels side by side, see what’s included and restricted, then book and manage the full trip in one place.",
   "author": {
     "name": "Sabre"
   },
@@ -28,12 +28,12 @@
     "properties": {
       "CLIENT_ID": {
         "type": "string",
-        "title": "Travel Assistant Client ID",
-        "description": "Client ID of the OAuth (Okta) application registered for the Sabre Travel Assistant MCP server."
+        "title": "Sabre Travel Connector Client ID",
+        "description": "Client ID of the OAuth (Okta) application registered for the Sabre Travel Connector MCP server."
       },
       "CLIENT_SECRET": {
         "type": "string",
-        "title": "Travel Assistant Client Secret",
+        "title": "Sabre Travel Connector Client Secret",
         "description": "Client Secret of the same OAuth (Okta) application."
       }
     },
