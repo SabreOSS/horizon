@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "Sabre Mosaic Travel Connector",
-      "source": "./plugins/sabre-travel-connector",
+      "source": "./plugins/sabre-mosaic-travel-connector",
       "description": "The Sabre Mosaic Travel Connector lets you shop flights and hotels side by side, see what’s included and restricted, then book and manage the full trip in one place."
     }
   ]
