@@ -2,11 +2,11 @@
   "name": "sabre-mosaic-travel-connector",
   "displayName": "Sabre Mosaic Travel Connector",
   "version": "1.0.0",
-  "description": "The Sabre Mosaic Travel Connector lets you shop flights and hotels side by side, see what’s included and restricted, then book and manage the full trip in one place.",
+  "description": "The Sabre Mosaic Travel Connector lets you shop flights and hotels side by side, see what’s included, then book and manage the full trip in one place.",
   "author": {
     "name": "Sabre"
   },
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "keywords": [
     "travel",
     "sabre",
