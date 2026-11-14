@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "sabre-travel-connector": {
+    "sabre-mosaic-travel-connector": {
       "type": "http",
       "url": "https://mcp.partners.sabre.com/mcp",
       "auth": {

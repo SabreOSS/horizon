@@ -1,8 +1,8 @@
 {
-  "name": "sabre-travel-connector",
-  "displayName": "Sabre Travel Connector",
+  "name": "sabre-mosaic-travel-connector",
+  "displayName": "Sabre Mosaic Travel Connector",
   "version": "1.0.0",
-  "description": "The Sabre Travel Connector lets you shop flights and hotels side by side, see what’s included and restricted, then book and manage the full trip in one place.",
+  "description": "The Sabre Mosaic Travel Connector lets you shop flights and hotels side by side, see what’s included and restricted, then book and manage the full trip in one place.",
   "author": {
     "name": "Sabre"
   },
@@ -28,12 +28,12 @@
     "properties": {
       "CLIENT_ID": {
         "type": "string",
-        "title": "Sabre Travel Connector Client ID",
-        "description": "Client ID of the OAuth (Okta) application registered for the Sabre Travel Connector MCP server."
+        "title": "Sabre Mosaic Travel Connector Client ID",
+        "description": "Client ID of the OAuth (Okta) application registered for the Sabre Mosaic Travel Connector MCP server."
       },
       "CLIENT_SECRET": {
         "type": "string",
-        "title": "Sabre Travel Connector Client Secret",
+        "title": "Sabre Mosaic Travel Connector Client Secret",
         "description": "Client Secret of the same OAuth (Okta) application."
       }
     },

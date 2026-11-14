@@ -1,5 +1,5 @@
 {
-  "name": "sabre-travel-plugins",
+  "name": "sabre-mosaic-travel-plugins",
   "owner": {
     "name": "Sabre"
   },
@@ -9,9 +9,9 @@
   },
   "plugins": [
     {
-      "name": "Sabre Travel Connector",
+      "name": "Sabre Mosaic Travel Connector",
       "source": "./plugins/sabre-travel-connector",
-      "description": "The Sabre Travel Connector lets you shop flights and hotels side by side, see what’s included and restricted, then book and manage the full trip in one place."
+      "description": "The Sabre Mosaic Travel Connector lets you shop flights and hotels side by side, see what’s included and restricted, then book and manage the full trip in one place."
     }
   ]
 }

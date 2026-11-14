@@ -1,4 +1,4 @@
-# Sabre Marketplace for Agent Plugins
+# Sabre Mosaic Marketplace for Agent Plugins
 
 A plugin marketplace from Sabre that connects AI agents and coding assistants to Sabre travel services.
 
@@ -8,7 +8,7 @@ The marketplace works with Cursor today. Its plugins are built on open standards
 
 | Plugin | Description | Version |
 | --- | --- | --- |
-| [Sabre Travel Connector](plugins/sabre-travel-connector/) | Shop flights and hotels side by side, see what's included and restricted, then book and manage the whole trip in one place. | 1.0.0 |
+| [Sabre Mosaic Travel Connector](plugins/sabre-mosaic-travel-connector/) | Shop flights and hotels side by side, see what's included and restricted, then book and manage the whole trip in one place. | 1.0.0 |
 
 See each plugin's README for setup, credentials and the list of tools.
 
